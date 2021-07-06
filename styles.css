@@ -74,6 +74,20 @@ nav a:focus {
   color: #707070;
 }
 
+.container-home {
+  display: flex;
+}
+
+.col-1 {
+  width: 65%;
+}
+
+.col-2 {
+  width: 25%;
+  background: #f8f8f8;
+  border: 1rem solid #707070;
+}
+
 @media (max-width: 675px) {
   header {
     text-align: center;
