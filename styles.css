@@ -74,7 +74,7 @@ nav a:focus {
   color: #707070;
 }
 
-.container-home {
+/* .container-home {
   display: flex;
 }
 
@@ -86,7 +86,7 @@ nav a:focus {
   width: 25%;
   background: #f8f8f8;
   border: 1rem solid #707070;
-}
+} */
 
 @media (max-width: 675px) {
   header {
