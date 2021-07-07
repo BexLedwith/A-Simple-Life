@@ -24,6 +24,41 @@ h1 {
   color: #1792d2;
   font-size: 0.75rem;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+}
+
+.article-body {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.text-accent {
+  font-weight: 700;
+}
+
+.article-link,
+.article-link::after {
+  color: #1792d2;
+}
+
+.article-link:hover,
+.article-link:focus {
+  color: #143774;
+}
+
+.article-read-more {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1792d2;
+  letter-spacing: 0.15rem;
+  font-size: 0.875rem;
 }
 
 /* layout */
@@ -59,6 +94,8 @@ nav a {
   text-decoration: none;
   color: #707070;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 nav a:hover,
@@ -74,20 +111,7 @@ nav a:focus {
   color: #707070;
 }
 
-/* .container-home {
-  display: flex;
-}
-
-.col-1 {
-  width: 65%;
-}
-
-.col-2 {
-  width: 25%;
-  background: #f8f8f8;
-  border: 1rem solid #707070;
-} */
-
+/* media queries */
 @media (max-width: 675px) {
   header {
     text-align: center;
