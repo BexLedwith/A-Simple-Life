@@ -7,20 +7,28 @@
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
 }
 
 /* typography */
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
+}
+
+h1 {
   font-size: 2rem;
   margin: 0;
 }
 
+/* logo subtitle */
 .subtitle {
   font-weight: 700;
   color: #1792d2;
@@ -30,35 +38,17 @@ h1 {
   letter-spacing: 0.125rem;
 }
 
-h2 {
-  font-family: "Lora", serif;
-  font-weight: 400;
-  color: #143774;
+.article-title {
   font-size: 1.5rem;
-}
-
-.article-body {
-  font-size: 1.125rem;
-  font-weight: 300;
 }
 
 .text-accent {
   font-weight: 700;
 }
 
-.article-info {
-  font-weight: 300;
+.article-info,
+.artile-read-more {
   font-size: 0.875rem;
-}
-
-.article-link,
-.article-link:visited {
-  color: #1792d2;
-}
-
-.article-link:hover,
-.article-link:focus {
-  color: #143774;
 }
 
 .article-read-more {
@@ -67,6 +57,20 @@ h2 {
   color: #1792d2;
   letter-spacing: 0.15rem;
   font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.article-link,
+.article-link:visited {
+  color: #1792d2;
+}
+
+.article-link:hover,
+.article-link:focus,
+.article-read-more:hover,
+.article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
 }
 
 /* layout */
@@ -95,6 +99,9 @@ nav ul {
   display: flex;
   padding: 0;
   flex-direction: column;
+}
+
+.sidebar {
 }
 
 /* navigation */
