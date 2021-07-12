@@ -16,6 +16,13 @@ img {
   display: block;
 }
 
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 /* typography */
 
 h1,
@@ -48,16 +55,12 @@ h1 {
   font-size: 0.875rem;
 }
 
-.widget-recent-post {
-  display: flex;
-  flex-direction: column-reverse;
-  border-bottom: 1px solid #707070;
-  margin-bottom: 1em;
+/* about me page */
+.about-me h2 {
+  font-size: 1.5rem;
 }
-
-.widget-recent-post:last-of-type {
-  border: none;
-  margin-bottom: 0;
+.about-me h3 {
+  color: #1792d2;
 }
 
 /* logo subtitle */
@@ -192,6 +195,18 @@ footer {
   background: #fff;
   padding: 1rem;
   margin-bottom: 2em;
+}
+
+.widget-recent-post {
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 1em;
+}
+
+.widget-recent-post:last-of-type {
+  border: none;
+  margin-bottom: 0;
 }
 
 /* media queries */
