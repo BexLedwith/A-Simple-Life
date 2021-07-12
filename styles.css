@@ -46,6 +46,7 @@ h1 {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 2px;
 }
 
 .widget-recent-post-title {
@@ -72,7 +73,7 @@ h1 {
   font-size: 0.75rem;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 0.125rem;
+  letter-spacing: 2px;
 }
 
 .article-title {
@@ -92,7 +93,7 @@ h1 {
   text-decoration: none;
   text-transform: uppercase;
   color: #1792d2;
-  letter-spacing: 0.15rem;
+  letter-spacing: 1px;
   font-size: 0.875rem;
   font-weight: 700;
 }
@@ -153,6 +154,7 @@ nav a {
   color: #707070;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
   letter-spacing: 0.2rem;
 }
 
@@ -173,7 +175,7 @@ nav a:focus {
 footer {
   width: 100%;
   background: #143774;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.65);
   text-align: center;
   padding: 3em 0;
 }
