@@ -168,21 +168,9 @@ nav a:focus {
 footer {
   width: 100%;
   background: #143774;
-}
-
-.container-copyright {
-  text-align: center;
   color: #fff;
-  font-size: 1.125rem;
-  padding: 1.33em;
-}
-
-.company-name {
-  font-weight: 700;
-}
-
-.copyright {
-  font-weight: 300;
+  text-align: center;
+  padding: 3em 0;
 }
 
 /* articles */
